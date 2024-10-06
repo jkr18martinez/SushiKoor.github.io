@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: arial,helvetica;
+    font-size: small;
+    background: black;
+    
+}
+
+
+header {
+    width: 400px;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    }
+    
+    .logo img{
+        margin-left: 25px;
+        height: 40px;
+        width: 65px;
+    }
+
+    nav a (bonelesyalitas){
+
+    }
+nav a{
+  
+  margin-left: 15px;
+  justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 2 2px;
+    padding: 2px;
+    border-radius: 6px;
+}
+nav a:hover{
+    background-color: rgb(173, 0, 0);
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section [id] {
+    scroll-margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bienvenidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Sushi{
+    scroll-margin-top: 50px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Hamburguesa{
+    scroll-margin-top: 50px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Bonelessyalitas{
+    scroll-margin-top: 30px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#paquetes{
+    scroll-margin-top: 35px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Promos{
+  scroll-margin-top: 50px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+  
